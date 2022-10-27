@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@material-ui/icons": "^4.11.3",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.11",
     "next": "12.3.1",
@@ -18,7 +19,9 @@
     "react": "18.2.0",
     "react-admin": "^4.4.4",
     "react-dom": "18.2.0",
-    "react-router-dom": "^6.4.2"
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^6.4.2",
+    "redux-form": "^8.3.8"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
