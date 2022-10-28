@@ -1,7 +1,6 @@
-import { Create, SimpleForm, TextInput } from "react-admin";
-import UserLanguageCreate from "./UserLanguageCreate";
-const UserCreate = () => (
-  <Create>
+import { SimpleForm, TextInput, Edit } from "react-admin";
+const UserEdit = (props) => (
+  <Edit {...props}>
     <SimpleForm>
       <TextInput name="name" source="name" />
       <TextInput source="username" />
@@ -9,8 +8,7 @@ const UserCreate = () => (
       <TextInput source="address.street" />
       <TextInput source="website" />
       <TextInput source="company.name" />
-      <UserLanguageCreate />
     </SimpleForm>
-  </Create>
+  </Edit>
 );
-export default UserCreate;
+export default UserEdit;

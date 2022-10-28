@@ -1,18 +1,5 @@
 import React, { Fragment, useState } from "react";
-import {
-  fetchEnd,
-  fetchStart,
-  required,
-  showNotification,
-  crudGetMatching,
-  Button,
-  SaveButton,
-  SimpleForm,
-  TextInput,
-  LongTextInput,
-  CREATE,
-  REDUX_FORM_NAME,
-} from "react-admin";
+import { required, TextInput } from "react-admin";
 import { IconContentAdd, IconCancel } from "@material-ui/icons";
 
 import {
