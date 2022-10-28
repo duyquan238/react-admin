@@ -16,13 +16,6 @@ const App = (props: Props) => {
   return (
     <Admin dataProvider={dataProvider} ready={Ready}>
       <Resource name="users" {...user} />
-      {/* <Resource name="comments" list={ListGuesser} />
-      <Resource name="users" list={ListGuesser} />
-      <CustomRoutes noLayout>
-      </CustomRoutes>
-      <CustomRoutes noLayout>
-        <Route path="/profile" element={<Profile />} />
-      </CustomRoutes> */}
     </Admin>
   );
 };
